@@ -4,7 +4,7 @@
 <img width="1080" alt="image" src="https://github.com/user-attachments/assets/3993403b-ac4f-4ce5-86ac-1f8452dab3ad" />
 
 
-This is the official repository of the EDLS dataset to study rendering inonsistency in edge-supported cloud gaming systems. Rendering inconsistency occurs when the edge server renders new scenes locally before receiving the updated global game state from the data center due to latency, as illustrated in the figure above. Ultimately, this impacts the player's visual experience.
+This is the official repository of the EDLS dataset to study rendering inonsistency in edge-supported cloud gaming systems. Rendering inconsistency occurs when the edge server renders new scenes locally before receiving the updated global game state from the data center due to latency. As a result, rendered scenes may appear different and/or deformed from the intended (ground truth) scenes of the game, as illustrated in the figure above. Ultimately, this impacts the player's experience.
 
  The dataset is used to study the impact of latency on rendering accuracy. The dataset contains synchronized gameplay recordings of client view and ground truth videos. The videos were originally recorded at 2K resolution with a frame rate of 60fps and later downsampled to 720p for analysis.
 
