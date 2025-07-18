@@ -45,4 +45,4 @@ The following is the general structure for the dataset repository:
 └── ...
 
 ```
-where currently we used [Lightworks](https://lwks.com/) for `<synchronization_tool>`. For the future, timestamps could br extracted from Lightworks or any other tool and then streams could be synchronized using [FFmpeg](https://ffmpeg.org/) for more flexibility. The `.csv` files contains the metadata such as perceptual similarity and temporal complexity associated with each frame. 
+where currently we used [Lightworks](https://lwks.com/) for `<synchronization_tool>`. For the future, timestamps could be extracted from Lightworks or any other tool, and then streams could be synchronized using [FFmpeg](https://ffmpeg.org/) for more flexibility. The `.csv` files contains the metadata such as perceptual similarity and temporal complexity associated with each frame. 
